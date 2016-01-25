@@ -76,7 +76,7 @@
         <geometry>
           <mesh filename="package://schunk_description/meshes/lwa4p/arm_1_link.stl" />
         </geometry>
-        <material name="Schunk/Blue" />
+        <material name="Schunk/LightGrey" />
       </visual>
 
       <collision>
@@ -112,7 +112,7 @@
         <geometry>
           <mesh filename="package://schunk_description/meshes/lwa4p/arm_2_link.stl" />
         </geometry>
-        <material name="Schunk/LightGrey" />
+        <material name="Schunk/Blue" />
       </visual>
 
       <collision>
@@ -148,7 +148,7 @@
         <geometry>
           <mesh filename="package://schunk_description/meshes/lwa4p/arm_3_link.stl" />
         </geometry>
-        <material name="Schunk/Blue" />
+        <material name="Schunk/LightGrey" />
       </visual>
 
       <collision>
@@ -184,7 +184,7 @@
         <geometry>
           <mesh filename="package://schunk_description/meshes/lwa4p/arm_4_link.stl" />
         </geometry>
-        <material name="Schunk/LightGrey" />
+        <material name="Schunk/Blue" />
       </visual>
 
       <collision>
@@ -220,7 +220,7 @@
         <geometry>
           <mesh filename="package://schunk_description/meshes/lwa4p/arm_5_link.stl" />
         </geometry>
-        <material name="Schunk/Blue" />
+        <material name="Schunk/LightGrey" />
       </visual>
 
       <collision>

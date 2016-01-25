@@ -3,40 +3,34 @@
 
   <xacro:macro name="schunk_lwa4p_gazebo" params="name">
 
-    <gazebo reference="${name}_0_link">
-      <gravity>true</gravity>
-      <self_collide>false</self_collide>
-      <material value="Schunk/LightGrey" />
-    </gazebo>
-
     <gazebo reference="${name}_1_link">
       <gravity>true</gravity>
       <self_collide>false</self_collide>
-      <material value="Schunk/Blue" />
+      <material value="Schunk/LightGrey" />
     </gazebo>
 
     <gazebo reference="${name}_2_link">
       <gravity>true</gravity>
       <self_collide>false</self_collide>
-      <material value="Schunk/LightGrey" />
+      <material value="Schunk/Blue" />
     </gazebo>
 
     <gazebo reference="${name}_3_link">
       <gravity>true</gravity>
       <self_collide>false</self_collide>
-      <material value="Schunk/Blue" />
+      <material value="Schunk/LightGrey" />
     </gazebo>
 
     <gazebo reference="${name}_4_link">
       <gravity>true</gravity>
       <self_collide>false</self_collide>
-      <material value="Schunk/LightGrey" />
+      <material value="Schunk/Blue" />
     </gazebo>
 
     <gazebo reference="${name}_5_link">
       <gravity>true</gravity>
       <self_collide>false</self_collide>
-      <material value="Schunk/Blue" />
+      <material value="Schunk/LightGrey" />
     </gazebo>
 
     <gazebo reference="${name}_6_link">
